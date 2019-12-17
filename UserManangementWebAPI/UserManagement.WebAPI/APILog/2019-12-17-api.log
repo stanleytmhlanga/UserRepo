@@ -1,0 +1,7 @@
+2019-12-17 15:51:30.2308|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+

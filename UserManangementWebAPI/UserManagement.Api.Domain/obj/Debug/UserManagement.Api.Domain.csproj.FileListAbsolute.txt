@@ -1,0 +1,10 @@
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\UserManagement.Api.Domain.dll.config
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\UserManagement.Api.Domain.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\UserManagement.Api.Domain.pdb
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\EntityFramework.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\EntityFramework.xml
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Debug\UserManagement.Api.Domain.csproj.CopyComplete
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Debug\UserManagement.Api.Domain.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Debug\UserManagement.Api.Domain.pdb

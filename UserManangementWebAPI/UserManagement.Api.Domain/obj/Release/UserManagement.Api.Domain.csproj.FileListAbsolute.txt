@@ -1,0 +1,11 @@
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\UserManagement.Api.Domain.dll.config
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\UserManagement.Api.Domain.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\UserManagement.Api.Domain.pdb
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\EntityFramework.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\EntityFramework.xml
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Release\UserManagement.Api.Domain.csprojAssemblyReference.cache
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Release\UserManagement.Api.Domain.csproj.CopyComplete
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Release\UserManagement.Api.Domain.dll
+C:\Users\stanley\source\repos\UserManangementWebAPI\UserManagement.Api.Domain\obj\Release\UserManagement.Api.Domain.pdb
