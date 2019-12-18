@@ -1,0 +1,226 @@
+2019-12-18 08:59:45.2315|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 12:14:41.4138|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:15:40.2459|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:38:05.1874|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:43:10.1321|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=01
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2019-12-18 12:43:21.5983|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=01
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:44:17.5708|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2019-12-18 12:44:18.0318|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:44:30.9312|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2019-12-18 12:44:40.8584|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:46:52.3506|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2019-12-18 12:47:06.3513|ERROR|UserManagement.WebAPI.Helpers.NLogger|Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : 
+Error: One or more validation errors were detected during model generation:
+
+UserManagement.Api.Domain.TokenEntity: : EntityType 'TokenEntity' has no key defined. Define the key for this EntityType.
+Tokens: EntityType: EntitySet 'Tokens' is based on type 'TokenEntity' that has no keys defined.
+
+
+
+2019-12-18 12:59:34.9427|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2019-12-18 13:17:35.7140|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 13:19:13.8692|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 13:27:12.5541|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 13:28:08.2243|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 13:28:19.8671|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 13:32:33.5303|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 13:34:22.2813|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 13:43:51.2174|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 13:44:46.8699|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 13:46:01.0735|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 14:15:08.3956|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:44327/api/Authenticate
+Controller : UserManagement.WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2019-12-18 14:17:45.7736|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 14:33:47.0305|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Token: 653CEE8A-DF20-49A9-BADB-DB7D9FEA6953
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+
+2019-12-18 14:39:19.9147|INFO|UserManagement.WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: https://localhost:44327/api/user/GetUserById?id=1044
+Token: 653CEE8A-DF20-49A9-BADB-DB7D9FEA6953
+Controller : UserManagement.WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1044}]}
+

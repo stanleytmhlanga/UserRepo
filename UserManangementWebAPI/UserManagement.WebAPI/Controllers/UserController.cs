@@ -5,34 +5,29 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using UserManagement.WebAPI.AuthenticationFilter;
-using UserManagement.WebAPI.CacheFilter;
 using UserManagement.WebAPI.Filters;
 using UserManagement.WebAPI.Helpers;
-using UserManagementAPI.Interfaces;
 using UserManagementAPI.UnitOfWork;
 
 namespace UserManagement.WebAPI.Controllers
 {
-
+    [AuthorizationRequired]
     public class UserController : ApiController
     {
-
-        //private IUser userRepository;
         private UnitOfWork unitOfWork;
         public UserController(UnitOfWork unitOfWork)
         {
             this.unitOfWork = unitOfWork;
-            //this.userRepository = userRepository;
         }
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        [ApiAuthenticationFilter(true)]
+        // [ApiAuthenticationFilter(true)]
         //[LoggingFilter]
         //[CacheFilter.CacheFilter(Duration=300)]
+        [AuthorizationRequired]
         [Route("api/user/GetUserById")]
         public async Task<HttpResponseMessage> Get(int id)
         {
@@ -44,8 +39,10 @@ namespace UserManagement.WebAPI.Controllers
                     return Request.CreateResponse(HttpStatusCode.OK, responseFromSwevice);
                 }
 
-                throw new ApiDataException(1001, "No User found for this id.", HttpStatusCode.NotFound);
+               throw new ApiDataException(1001, "No User found for this id.", HttpStatusCode.NotFound);
             }
+            //var responseFromSwevicee = await unitOfWork.UserRepository.GetById(id);
+            //return Request.CreateResponse(HttpStatusCode.OK, responseFromSwevicee);
             throw new ApiException() { ErrorCode = (int)HttpStatusCode.BadRequest, ErrorDescription = "Bad Request..." };
         }
         public void Post([FromBody]string value)

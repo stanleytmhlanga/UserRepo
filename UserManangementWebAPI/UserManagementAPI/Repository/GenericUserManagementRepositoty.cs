@@ -42,6 +42,20 @@ namespace UserManagementAPI.Repository
             return token as TokenEntity;
         }
 
+        public virtual TokenEntity Delete(Expression<Func<TokenEntity, bool>> entityToDelete)
+        {
+            var db = dbSet.Find(entityToDelete);
+
+            if (context.Entry(entityToDelete).State == EntityState.Detached)
+            {
+                dbSet.Attach(db);
+            }
+
+            dbSet.Remove(db);
+            return new TokenEntity();
+
+        }
+
         public virtual void Insert(T entity)
         {
             dbSet.Add(entity);
@@ -56,6 +70,8 @@ namespace UserManagementAPI.Repository
 
             dbSet.Remove(entityToDelete);
         }
+
+
         public virtual void Update(T entity)
         {
             dbSet.Attach(entity);

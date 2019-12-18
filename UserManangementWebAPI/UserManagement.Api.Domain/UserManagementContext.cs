@@ -14,6 +14,7 @@ namespace UserManagement.Api.Domain
 
         public DbSet<Entity> Entities { get; set; }
         public DbSet<UserStatus> UserStatuses { get; set; }
+        public DbSet<TokenEntity> Tokens { get; set; }
 
     }
 }

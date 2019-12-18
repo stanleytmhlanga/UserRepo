@@ -4,13 +4,14 @@ using System.Linq;
 using System.Threading;
 using System.Web;
 using System.Web.Http.Controllers;
+using UserManagement.WebAPI.AuthenticationFilter;
 using UserManagementAPI.Interfaces;
 
-namespace UserManagement.WebAPI.AuthenticationFilter
+namespace UserManagement.WebAPI.Filters
 {
     public class ApiAuthenticationFilter : GenericAuthenticationFilter
     {
-        //public ApiAuthenticationFilter()
+        //public ApiAuthenticationFilter():base()
         //{
         //}
 

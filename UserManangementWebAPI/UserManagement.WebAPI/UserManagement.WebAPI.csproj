@@ -148,6 +148,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivator.1.0.0.0\lib\WebActivator.dll</HintPath>
+    </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
     </Reference>
@@ -172,10 +175,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="AuthenticationFilter\ApiAuthenticationFilter.cs" />
-    <Compile Include="AuthenticationFilter\BasicAuthenticationIdentity.cs" />
-    <Compile Include="AuthenticationFilter\GenericAuthenticationFilter.cs" />
-    <Compile Include="CacheFilter\CacheFilter.cs" />
+    <Compile Include="Controllers\AuthenticateController.cs" />
+    <Compile Include="Filters\AuthorizationRequiredAttribute.cs" />
+    <Compile Include="Filters\CacheFilter.cs" />
+    <Compile Include="Filters\ApiAuthenticationFilter.cs" />
+    <Compile Include="Filters\BasicAuthenticationIdentity.cs" />
+    <Compile Include="Filters\GenericAuthenticationFilter.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Filters\GlobalExceptionAttribute.cs" />
     <Compile Include="Filters\LoggingFilterAttribute.cs" />
@@ -229,6 +234,7 @@
     <Folder Include="APILog\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Authenticate\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

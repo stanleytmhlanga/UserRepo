@@ -30,8 +30,8 @@ namespace UserManagementAPI.Repository
                                               Convert.ToDouble(ConfigurationManager.AppSettings["AuthTokenExpiry"]));
             var tokendomain = new TokenEntity
             {
-                UserID = userId,
-                Token = Guid.Parse(token),
+                UserId = userId,
+                AuthToken = token,
                 IssuedOn = issuedOn,
                 ExpiresOn = expiredOn
             };
@@ -40,10 +40,10 @@ namespace UserManagementAPI.Repository
             unitOfWork.Save();
             var tokenModel = new TokenEntity()
             {
-                UserID = userId,
+                UserId = userId,
                 IssuedOn = issuedOn,
                 ExpiresOn = expiredOn,
-                Token = Guid.Parse(token)
+                AuthToken =token
             };
 
             return tokenModel;
@@ -60,7 +60,7 @@ namespace UserManagementAPI.Repository
 
         public bool ValidateToken(string tokenId)
         {
-            var token = unitOfWork.TokenRepository.GetToken(t => t.Token == Guid.Parse(tokenId) && t.ExpiresOn > DateTime.Now);
+            var token = unitOfWork.TokenRepository.GetToken(t => t.AuthToken == tokenId && t.ExpiresOn > DateTime.Now);
             if (token != null && !(DateTime.Now > token.ExpiresOn))
             {
                 token.ExpiresOn = token.ExpiresOn.AddSeconds(

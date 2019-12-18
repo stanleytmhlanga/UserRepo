@@ -50,10 +50,10 @@ namespace UserManagement.WebAPI.Filters
                 if (dataException != null)
                     throw new HttpResponseException(context.Request.CreateResponse(dataException.HttpStatus, new ServiceStatus() { StatusCode = dataException.ErrorCode, StatusMessage = dataException.ErrorDescription, ReasonPhrase = dataException.ReasonPhrase }));
             }
-            else
-            {
-                throw new HttpResponseException(context.Request.CreateResponse(HttpStatusCode.InternalServerError));
-            }
+            //else
+            //{
+            //    throw new HttpResponseException(context.Request.CreateResponse(HttpStatusCode.InternalServerError));
+            //}
         }
     }
 }

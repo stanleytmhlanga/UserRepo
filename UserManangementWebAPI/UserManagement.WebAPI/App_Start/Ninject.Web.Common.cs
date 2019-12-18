@@ -97,7 +97,8 @@ namespace UserManagement.WebAPI.App_Start
             kernel.Bind<GenericIdentity>().To<BasicAuthenticationIdentity>();
             kernel.Bind<AuthorizationFilterAttribute>().To<GenericAuthenticationFilter>();
             kernel.Bind<GenericAuthenticationFilter>().To<ApiAuthenticationFilter>();
-         
+
+            kernel.Bind<ITokenServices>().To<RepositoryTokenServices>();
             kernel.Bind<IErrorLogger>().To<RepositotyErrorLogger>();
             kernel.Bind(typeof(GenericUserManagementRepositoty<>));
             kernel.Bind<IDisposable>().To<UnitOfWork>();

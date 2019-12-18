@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Principal;
 using System.Web;
 
-namespace UserManagement.WebAPI.AuthenticationFilter
+namespace UserManagement.WebAPI.Filters
 {
     public class BasicAuthenticationIdentity : GenericIdentity
     {

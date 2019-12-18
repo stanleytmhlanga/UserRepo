@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Http.Filters;
 
-namespace UserManagement.WebAPI.CacheFilter
+namespace UserManagement.WebAPI.Filters
 {
     public class CacheFilter : ActionFilterAttribute
     {
-        public int Duration {get;set;}
+        public int Duration { get; set; }
 
         public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
         {
